@@ -19,10 +19,10 @@ class WelcomeController extends React.Component {
   };
   render() {
     return (
-      <div className="cont">
+      <div className="cont1">
         <Row type="flex" justify="space-between" className="news-row">
           <Col span={12}>
-            <Typography className="typo">
+            <Typography className="typo1">
               <Title>专业测评系统</Title>
               <Paragraph>
                 请务必诚实、独立地回答问题，只有如此，才能得到有效的结果。

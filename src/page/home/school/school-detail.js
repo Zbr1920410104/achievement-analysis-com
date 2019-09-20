@@ -5,6 +5,11 @@ import { connect } from 'react-redux';
 // import { actions as schoolActions } from '../../../redux/school-model';
 
 class SchoolDetailController extends React.Component {
+	componentDidUpdate(prevProps, prevState) {
+		console.log('prevprev', prevProps);
+		console.log('now now', this.props)
+	}
+
 	render() {
     let schoolDetail = this.props.schoolDetail;
 

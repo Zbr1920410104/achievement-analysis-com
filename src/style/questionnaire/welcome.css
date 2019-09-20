@@ -2,17 +2,16 @@
   width: 100%;
 }
 
-.cont {
+.cont1 {
+  position: relative;
   background: #f6f6f7;
   height: 500px;
   min-width: 1250px;
   padding-top: 30px;
 }
 
-.typo {
+.typo1 {
   text-align: left;
   margin-left: 70px;
-  position: absolute;
-  top: 50%;
-  margin-top: -25%;
+  margin-top: 60px;
 }
